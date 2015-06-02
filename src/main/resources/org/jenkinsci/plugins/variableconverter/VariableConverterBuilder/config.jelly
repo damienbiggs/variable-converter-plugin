@@ -1,0 +1,15 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:entry title="Source Variable Name" field="sourceVariable">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Source Variable Pattern Name" field="sourceVariablePattern">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Destination Variable Name" field="destinationVariable">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Destination Variable Pattern Name" field="destinationVariablePattern">
+    <f:textbox />
+  </f:entry>
+</j:jelly>
